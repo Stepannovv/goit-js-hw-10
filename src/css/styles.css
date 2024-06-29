@@ -107,3 +107,75 @@ body {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-input {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.input:hover {
+  border-radius: 4px;
+}
+
+.input:active {
+  border-color: #4e75ff;
+}
+
+.fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  width: 360px;
+  margin-bottom: 24px;
+}
+
+.fieldset:hover {
+  stroke: #000;
+}
+
+.submit {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+}
+
+.submit:hover {
+  background-color: #6c8cff;
+}
